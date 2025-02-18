@@ -1,0 +1,70 @@
+# Ignore target and build directories (Maven & Gradle)
+target/
+build/
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore log files
+*.log
+logs/
+*.out
+
+# Ignore environment-specific properties
+.env
+*.properties~
+*.yml~
+*.yaml~
+
+# Ignore temporary files and OS-generated files
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files (IntelliJ, Eclipse, VS Code)
+.idea/       # IntelliJ IDEA files
+*.iml
+*.ipr
+*.iws
+.vscode/     # VS Code workspace settings
+.project
+.classpath
+.settings/
+
+# Ignore Maven wrapper files
+.mvn/wrapper/maven-wrapper.jar
+
+# Ignore Gradle files
+.gradle/
+!gradle-wrapper.jar
+gradle-app.setting
+
+# Ignore node_modules (if frontend exists inside any Spring Boot project)
+node_modules/
+
+# Ignore Spring Boot IDE-specific files
+.springBeans
+
+# Ignore test reports and coverage reports
+surefire-reports/
+test-output/
+jacoco/
+
+# Ignore Docker and Kubernetes files (if applicable)
+docker-compose.override.yml
+*.kubeconfig
+
+# Ignore database files (if using embedded databases)
+*.h2.db
+*.mv.db
+*.sqlite
+*.db
+
+# Ignore generated static files (if any frontend is inside)
+dist/
+out/
+
+# Ignore unnecessary system files
+hs_err_pid*
